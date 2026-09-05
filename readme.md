@@ -2,17 +2,15 @@
 
 ## 0. Wstęp i wymagania techniczne.
 
-Ekosystem istniejący na rynku wokół zagadnień Big Data jest ogromny, stąd prowadzący dokonał arbitralnego wyboru narzędzi, które zostaną zaprezentowane. Jednym z nich jest Apache Spark jako najczęściej wykorzystywane narzędzie przez inżynierów Big Data. Natywnym środowiskiem pracy tego narzędzia jest JVM i język scala, jednak ze względu na wielką popularność języka Python w kontekście data science coraz większa część funckjonalności poprzez odpowiednie API jest również dostępna z poziomu języka Python. Zajęcia będą koncentrowały się na wykorzystaniu tego właśnie języka programowania.
+Ekosystem istniejący na rynku wokół zagadnień Big Data jest ogromny, stąd prowadzący dokonał arbitralnego wyboru narzędzi, które zostaną zaprezentowane. Jednym z nich jest Apache Spark jako najczęściej wykorzystywane narzędzie przez inżynierów Big Data. Natywnym środowiskiem pracy tego narzędzia jest JVM i język scala, jednak ze względu na dużą popularność języka Python w kontekście data science oraz nasze wcześniejsze doświadczenia w jego wykorzystaniu, wybrano API PySpark, które oferuje większość natywnej funkcjonalności narzędzia Apache Spark. Zajęcia będą koncentrowały się na wykorzystaniu tego właśnie języka programowania.
 
 W trakcie zajęć przedstawione zostaną poniższe narzędzia:
 * optymalizacja danych przetwarzanych za pomocą biblioteki pandas,
 * biblioteka Dask,
-* wprowadzenie do systemu Spark,
-* PySpark
-* formaty danych dla Big Data,
-* bazy danych NoSQL,
-* Apache Hadoop,
-* wykorzystanie Apache Spark w rozproszonym ML.
+* wprowadzenie do systemu Spark z wykorzystaniem PySpark
+* wybrane formaty danych w ekosystemie Big Data,
+* hurtownia danych Apache Hadoop i praca z różnymi źródłami danych,
+* wykorzystanie PySpark w zadaniu Machine Learning.
 
 W trakcie zajęć będzie wykorzystywany interpreter **Pythona w wersji 3.12.7 (możliwe również, że wersja 3.11 w przypadku systemu Spark)** oraz głównie oprogramowanie **Jupyter Lab** z dostępem poprzez przeglądarkę internetową.
 W późniejszej fazie zajęć, w zależności od możliwości, może pojawić się konieczność wykorzystania oprogramowania Docker.
